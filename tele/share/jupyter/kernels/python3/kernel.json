@@ -1,0 +1,14 @@
+{
+ "argv": [
+  "p:/customer_churn/telecom_customer_churn/telecom_customer_churn_project/tele\\python.exe",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "Python 3 (ipykernel)",
+ "language": "python",
+ "metadata": {
+  "debugger": true
+ }
+}
