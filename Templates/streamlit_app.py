@@ -104,32 +104,9 @@ def main():
     
     if st.button("About"):
         st.text("Learn about customer churn prediction")
-        st.text("This application uses a machine learning model to predict customer churn based on various input
-        parameters.")
+        st.text("This application uses a machine learning model to predict customer churn based on various input parameters.")
 
-        st.text("Telecom customer churn, often referred to as customer attrition, is the phenomenon where customers 
-        switch from one telecom service provider to another or discontinue their service altogether. This phenomenon is 
-        prevalent in the telecom industry due to factors such as intense competition, rapidly evolving technology, and
-        changing customer preferences.")
         
-        st.text("Customer churn poses significant challenges for telecom companies as it leads to revenue loss,
-        reduced market share, and increased customer acquisition costs. Therefore, predicting and reducing customer
-        churn is a top priority for telecom operators.")
-        
-        st.text("To address this challenge, telecom companies leverage data analytics and machine learning techniques 
-        to identify patterns and factors associated with customer churn. By analyzing customer data such as demographic
-        information, usage patterns, billing history, and customer interactions, telecom companies can build predictive 
-        models to forecast which customers are at risk of churn.")
-        
-        st.text("These predictive models enable telecom companies to take proactive measures to retain
-        customers, such as offering personalized promotions, improving service quality, and providing targeted 
-        customer support. By implementing effective retention strategies, telecom companies can enhance customer
-        satisfaction, reduce churn rates, and improve overall business performance.")
-
-        st.text("In summary, telecom customer churn is a critical issue that impacts the profitability 
-        and sustainability of telecom operators. By leveraging advanced analytics and predictive modeling, 
-        telecom companies can better understand customer behavior, anticipate churn, and implement strategies 
-        to mitigate churn risk and retain valuable customers.")
-
+         
 if __name__ == '__main__':
     main()
