@@ -40,7 +40,7 @@ def main():
     st.markdown(html_temp, unsafe_allow_html=True)
 
     # Collecting user input
-    Gender = st.selectbox("Gender", ["Male", "Female"])  # Assuming two options for gender
+    Gender = st.selectbox("Gender", [0,1])  # Assuming two options for gender
     Age = st.text_input("Age", "Enter age")
     Married = st.selectbox("Married", [0, 1])
     Number_of_Dependents = st.selectbox("Number of Dependents", [0, 1, 2, 3, 4])
